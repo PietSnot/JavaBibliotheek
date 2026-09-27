@@ -125,6 +125,10 @@ public class PietsQuadTree {
         return result;
     }
     
+    //--------------------------------------------------------------------------
+    // private methods
+    //--------------------------------------------------------------------------
+    
     private void divide() {
         var x = boundary.getX();
         var y = boundary.getY();
