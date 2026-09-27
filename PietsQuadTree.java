@@ -91,7 +91,11 @@ public class PietsQuadTree {
             var w = boundary.getWidth();
             var h = boundary.getHeight();
             g2d.draw(l2d(x + w/2, y, x + w/2, y + h));
-            g2d.draw(l2d(x, y + h/2, x + w, y + h/2));            
+            g2d.draw(l2d(x, y + h/2, x + w, y + h/2));  
+            nw.draw(g);
+            sw.draw(g);
+            ne.draw(g);
+            se.draw(g);
         }
         g2d.dispose();
     }
